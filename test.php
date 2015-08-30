@@ -2,9 +2,9 @@
 
 require_once('post.php');
 
-$arr_data = array('class_id' => 'BMSIT_CSE_7_B' );
+$arr_data = array('username' => 'admin', 'pwd' => 'admin' );
 
-$url = 'http://rockstat-echo.herokuapp.com/stu_classfac';
+$url = 'http://rock.herokuapp.com/login';
 
 $obj = new PostData;
 
