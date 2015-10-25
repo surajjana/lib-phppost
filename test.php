@@ -2,9 +2,9 @@
 
 require_once('post.php');
 
-$arr_data = array('username' => 'admin', 'pwd' => 'admin' );
+$arr_data = array('username' => '1BY12CS077');
 
-$url = 'http://rock.herokuapp.com/login';
+$url = 'http://rockstat-echo.herokuapp.com/stu_data';
 
 $obj = new PostData;
 
